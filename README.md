@@ -35,7 +35,7 @@ Once entered, players enter the ticket price when buying ticket price. The rest 
 
 ## 2. Recurring Lottery
 
-Designed by: Jarod Alindogan
+Designed by: Jarod Alindogan and Kevin Roy Canete
 
 This type of lottery works by playing the game repeatedly. Recurring lottery has no ending. It will just continue every time a winner has declared. players can buy in every round of the lottery. Even if they lose or win. They could still join the round. 
 
