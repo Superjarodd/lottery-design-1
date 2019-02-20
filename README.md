@@ -1,4 +1,4 @@
-# "Lottery" Design Patterns for Ethereum and Hyperledger
+# "Lottery" Designs for Ethereum and Hyperledger
 
 ## Table of Contents
 <!-- TOC -->
