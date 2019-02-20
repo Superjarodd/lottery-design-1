@@ -36,9 +36,19 @@ Once entered, players enter the ticket price when buying ticket price. The rest 
 
 Designed by: Jarod Alindogan
 
+This type of lottery works by playing the game repeatedly. Recurring lottery has no ending. It will just continue every time a winner has declared. players can buy in every round of the lottery. Even if they lose or win. They could still join the round. 
+
 ### 2.1. Ethereum
 
+In the Ethereum platform. Players and Deployers will be divided into two (2) diagram. They both have different flow. The deployer starts with deploying contract after deploying the contract. The role of deployer starts. deployer will specify a duration of a round. After the duration of the round. It will conclude and draw a winner. Checking of round winner is an essential so the deployer will be noticed who won the round. Deployer has an option to delete a round for the lottery.
+
+Players process is the second process. When the contract is deployed. All the players or users can start placing their bets. They could buy a lottery ticket for a round to join a game. They have an option to check their balance. If the player won the round. They can withdraw the price or reward.
+
 ### 2.2. Hyperledger
+
+In the Ethereum platform. Players and Deployers will be divided into two (2) diagram. They both have different flow. The deployer starts with deploying contract after deploying the contract. The role of deployer starts. deployer will specify a duration of a round. After the duration of the round. It will conclude and draw a winner. Checking of round winner is an essential so the deployer will be noticed who won the round. Deployer has an option to delete a round for the lottery. 
+
+Players process is the second process. When the contract is deployed. All the players or users can start placing their bets. They could buy a lottery ticket for a round to join a game. They have an option to check their balance. If the player won the round. They can withdraw the price or reward.
 
 ## 3. RNG Lottery
 
