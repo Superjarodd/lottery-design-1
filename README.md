@@ -74,13 +74,23 @@ Players who don’t reveal their numbers during the reveal period are dropped fr
 
 ### 3.2. Hyperledger
 
+Just like in Ethereum the duration of ticket buying and reveal must be initialized before deploying the chaincode, the duration will be based on reaching the required blocked in order to measure the current period, the difference only is that in this lottery game, users know each other except for the secret number owned by each of the participants, when the block reach the reveal period, all users must reveal their secret number or else will be removed from the lottery, after that a chaincode will withdraw the winner based on random pick and the rest of the process is same on Ethereum.
+
 ## 4. Powerball
 
 Designed by: John Mico Bangit
 
+Powerball is the most popular type of lottery played in the United States. In this section, we are going to write a contract that ports this game onto Ethereum. 
+
+In Powerball, the user picks six numbers per ticket. The first five numbers are standard numbers from 1–69, and the sixth number is a special Powerball number from 1–26 that offers extra rewards. Every three or four days, a drawing is held, and a winning ticket consisting of five standard numbers and a Powerball number is picked. Prizes are paid out based on the number of winning numbers matched on your ticket.
+
 ### 4.1. Ethereum
 
+First, the user must check the Max Number and Max Number of Powerball before he/she buy a ticket, after buying ticket worth 0.02 ether the account who deployed the smart contract will draw the numbers from 1-69 on first to fifth Number and then 1-26 on last number. after the draw , the player can now check the winning combination number. The winning participant can withdraw the jackpot which is Prizes are paid out based on the number of winning numbers matched on your ticket.
+
 ### 4.2. Hyperledger
+
+There is same process in game but there are some additional process on technical part. First the deployer must deploy the chaincode and then deploy itself as admin, next on Orderer part he/she must approve and deploy the chaincode. On Player part he/she must register first before entering the game. After the technical part the game may now start. The user must check the Max Number and Max Number of Powerball before he/she buy a ticket, after buying ticket worth 0.02 ether the account who deployed the smart contract will draw the numbers from 1-69 on first to fifth Number and then 1-26 on last number. After the draw, the player can now check the winning combination number. The winning participant can withdraw the jackpot. Prizes are paid out based on the number of winning numbers matched on your ticket.
 
 ## Reference
 
