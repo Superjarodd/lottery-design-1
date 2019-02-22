@@ -47,9 +47,9 @@ Players process is the second process. When the contract is deployed. All the pl
 
 ### 2.2. Hyperledger
 
-In the Ethereum platform. Players and Deployers will be divided into two (2) diagram. They both have different flow. The deployer starts with deploying contract after deploying the contract. The role of deployer starts. deployer will specify a duration of a round. After the duration of the round. It will conclude and draw a winner. Checking of round winner is an essential so the deployer will be noticed who won the round. Deployer has an option to delete a round for the lottery. 
+In the Hyperledger platform. There are three diagram, Deployer,orderer and player. Deployer will deploy a chaincode and waits for the approval of the orderer to approve the chaincode and it will be endorse. After the approval, the deployer enrolled as an admin and then start the game. Deployer will specify a duration of a round and draw a winner of the round. It has an option the check the round winner and delete a round. 
 
-Players process is the second process. When the contract is deployed. All the players or users can start placing their bets. They could buy a lottery ticket for a round to join a game. They have an option to check their balance. If the player won the round. They can withdraw the price or reward.
+Players will receive a web app to start the betting. After receiving, players will enroll as a user and then join the game. After joining, players will start placing bets. They also need to buy a ticket for a round of a lottery to join the game. They could check the balance. If they won the round, they could withdraw the price after the round. They have an option to join the game again and place again their bets for another round. 
 
 ## 3. RNG Lottery
 
