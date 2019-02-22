@@ -5,6 +5,7 @@
 - [1. Simple Lottery](#1-simple-lottery)
     - [1.1. Ethereum](#11-ethereum)
     - [1.2. Hyperledger](#12-hyperledger)
+    - [1.3. App for Hyperledger Fabric](#13-app-for-hyperledger-fabric)
 - [2. Recurring Lottery](#2-recurring-lottery)
     - [2.1. Ethereum](#21-ethereum)
     - [2.2. Hyperledger](#22-hyperledger)
@@ -32,6 +33,36 @@ Before deploying the smart contract, a duration (in seconds) must be placed firs
 Same with Ethereum, a duration (in seconds) is placed before deploying the chaincode. But unlike the previous one, participants must receive the chaincode and they need to register themselves into it before joining the game. The reason for this is Hyperledger is a private blockchain platform, meaning chaincode is only deployed within specific "walls" where all participants recognize each other.
 
 Once entered, players enter the ticket price when buying ticket price. The rest of the process remains the same as before: after the duration, deployer draws the winner and the winning participant can claim the jackpot prize.
+
+### 1.3. App in Hyperledger Fabric
+
+To run the equivalent app written for Hyperledger Fabric:
+
+1. Clone this repo, make sure all prerequisites are performed and you have "fabric-samples" in your machine.
+
+2. Copy the contents of lottery-design/simple-lottery-hyperledger and paste it to your "fabric-samples" folder.
+
+3. In terminal, go to fabric-samples/lottery and run these commands:
+
+```
+./startFabric.sh
+npm install
+node enrollAdmin.js
+node registerUser.js
+node app.js
+```
+
+4. Open Postman. To use the app:
+
+4.1. To view all ticket entries, set method to GET and go to localhost:3000
+
+4.2. To add a ticket entry, set method to POST, go to localhost:3000/ticket.
+
+    Go to Body tab, tick x-www-form-urlencoded, enter "name" under Key and type any name you want under Value
+
+    Click Send.
+
+4.3. To pick a winner, set method to GET and go to localhost:3000/winner
 
 ## 2. Recurring Lottery
 
