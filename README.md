@@ -1,5 +1,9 @@
 # "Lottery" Designs for Ethereum and Hyperledger
 
+## UPDATE:
+
+[4:33 PM 2-22-2019] Added simple lottery premature code for Hyperledger Fabric
+
 ## Table of Contents
 <!-- TOC -->
 - [1. Simple Lottery](#1-simple-lottery)
@@ -34,7 +38,7 @@ Same with Ethereum, a duration (in seconds) is placed before deploying the chain
 
 Once entered, players enter the ticket price when buying ticket price. The rest of the process remains the same as before: after the duration, deployer draws the winner and the winning participant can claim the jackpot prize.
 
-### 1.3. App in Hyperledger Fabric
+### 1.3. App for Hyperledger Fabric
 
 To run the equivalent app written for Hyperledger Fabric:
 
